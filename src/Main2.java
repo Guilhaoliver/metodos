@@ -5,15 +5,8 @@ public class Main2 {
         int primeiroNumero = 4;
         int segundoNumero = 3;
         int soma;
-
-        double primeiroNumeroMulticacao = 4.5;
-        double segundoNumeroMulticacao = 2.3;
         double multiplicacao;
-
-        double primeiroNumeroDivisao = 45;
-        double segundoNumeroDivisao = 8;
         double divisao;
-
         double subtracao;
 
 
@@ -21,9 +14,9 @@ public class Main2 {
 
         soma = calculadora.somar(primeiroNumero,segundoNumero);
 
-        multiplicacao = calculadora.multiplicacao(primeiroNumeroMulticacao,segundoNumeroMulticacao);
+        multiplicacao = calculadora.multiplicacao(primeiroNumero,segundoNumero);
 
-        divisao = calculadora.dividir(primeiroNumeroDivisao,segundoNumeroDivisao);
+        divisao = calculadora.dividir(primeiroNumero,segundoNumero);
 
         subtracao = calculadora.subtrair(primeiroNumero,segundoNumero);
 

@@ -6,18 +6,19 @@ public class Calculadora {
         return primeiroNumero + segundoNumero;
     }
 
-    public double multiplicacao(double primeiroNumeroMulticacao, double segundoNumeroMulticao) {
+    public double multiplicacao(int primeiroNumero, int segundoNumero) {
 
-        return  primeiroNumeroMulticacao*segundoNumeroMulticao;
-
+        return primeiroNumero * segundoNumero;
     }
 
-    public double dividir(double primeiroNumeroDivisao, double segundoNumeroDivisao) {
+    public double dividir(int primeiroNumero, int segundoNumero) {
 
-        return primeiroNumeroDivisao/segundoNumeroDivisao;
+        return segundoNumero / primeiroNumero ;
     }
 
     public double subtrair(int primeiroNumero, int segundoNumero) {
+
         return primeiroNumero - segundoNumero;
     }
 }
+
